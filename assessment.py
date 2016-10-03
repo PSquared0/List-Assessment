@@ -21,7 +21,7 @@ def state_tax(tax, item_cost):
     else: 
         return item_cost + item_cost * tax
 
-    return state_tax()
+    print state_tax()
 
 #####################################################################
 # PART TWO
